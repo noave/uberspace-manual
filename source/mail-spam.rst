@@ -1,4 +1,4 @@
-.. _mailfilters:
+.. _mail-spam:
 
 ###############
 Filtering mails

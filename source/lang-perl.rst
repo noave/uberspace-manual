@@ -1,4 +1,4 @@
-.. _perl:
+.. _lang-perl:
 
 .. sidebar:: Logo
 

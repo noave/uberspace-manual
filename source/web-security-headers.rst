@@ -1,4 +1,4 @@
-.. _web-security-headers: 
+.. _web-security-headers:
 
 ####################
 Web Security Headers

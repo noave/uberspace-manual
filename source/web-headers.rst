@@ -1,4 +1,4 @@
-.. _headers:
+.. _web-headers:
 
 ###########
 web headers

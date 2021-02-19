@@ -1,4 +1,4 @@
-.. _firewallports:
+.. _basics-ports:
 
 ##############
 Firewall Ports

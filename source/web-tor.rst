@@ -1,7 +1,7 @@
 .. _web-tor:
 
 ##################
-Tor Hidden Service 
+Tor Hidden Service
 ##################
 
 Tor_ is open-source software for anonymous communication. It enables users

@@ -1,4 +1,4 @@
-.. _mailboxes:
+.. _mail-mailboxes:
 
 #########
 Mailboxes

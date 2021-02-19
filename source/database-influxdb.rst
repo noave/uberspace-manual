@@ -1,4 +1,4 @@
-.. _influxdb:
+.. _database-influxdb:
 
 ########
 InfluxDB

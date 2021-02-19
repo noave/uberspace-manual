@@ -1,4 +1,4 @@
-.. _rust:
+.. _lang-rust:
 
 .. sidebar:: Logo
 

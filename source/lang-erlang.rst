@@ -1,4 +1,4 @@
-.. _erlang:
+.. _lang-erlang:
 
 .. sidebar:: Logo
 

@@ -1,4 +1,4 @@
-.. _postgresql:
+.. _database-postgresql:
 
 ##########
 PostgreSQL

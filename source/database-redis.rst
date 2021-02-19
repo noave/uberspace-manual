@@ -1,4 +1,4 @@
-.. _redis:
+.. _database-redis:
 
 #####
 redis

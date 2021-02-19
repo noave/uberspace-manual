@@ -1,4 +1,4 @@
-.. _mysql:
+.. _database-mysql:
 
 #####
 MySQL

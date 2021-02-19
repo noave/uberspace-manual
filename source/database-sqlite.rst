@@ -1,4 +1,4 @@
-.. _sqlite:
+.. _database-sqlite:
 
 ######
 SQLite

@@ -37,7 +37,7 @@ Mailing
 
 - Webmail for U7 is available at the central web address `https://webmail.uberspace.de <https://webmail.uberspace.de>`_. It is no longer possible to use an addressbook at this webmailer, therefore please install your own client from the `Uberspace Lab <https://lab.uberspace.de/tags/webmail>`_.
 
-- Regarding spam management, DSPAM und SpamAssassin is currently not available on U7, training the spam filter with `ham` and `spam` is not possible for users yet. Check the manual page for current :ref:`spam management <mailfilters>`.
+- Regarding spam management, DSPAM und SpamAssassin is currently not available on U7, training the spam filter with `ham` and `spam` is not possible for users yet. Check the manual page for current :ref:`spam management <mail-spam>`.
 
 - There is no longer native support for domain namespaces, each mail user will work with every connected mail domain, to avoid this you have to create separate uberspace accounts for each domain.
 
@@ -63,23 +63,23 @@ Databases
 Miscellaneous
 =============
 
-- If we had opened a port for your software on U6, you may not be able to get the same port again on U7. You can open random ports by your own, see :ref:`opening ports <basic-ports>`.
+- If we had opened a port for your software on U6, you may not be able to get the same port again on U7. You can open random ports by your own, see :ref:`opening ports <basics-ports>`.
 
 - We no longer support outdated software like CGI, PHP5 etc. on U7. You may be able to get these run by installing and setting them up yourself but we cannot support you with problems in doing so.
 
-- Instead of fiddling with your ``.htaccess`` to redirect to your listening services, you now manage this job much better using our :ref:`web backends <backends>`.
+- Instead of fiddling with your ``.htaccess`` to redirect to your listening services, you now manage this job much better using our :ref:`web backends <web-backends>`.
 
-- Services are now controlled and restarted by ``supervisord`` instead of the ``daemontools``, check out the :ref:`manual page <supervisord>` to see how you can set up your services on U7.
+- Services are now controlled and restarted by ``supervisord`` instead of the ``daemontools``, check out the :ref:`manual page <daemons-supervisord>` to see how you can set up your services on U7.
 
 
 New features
 =============
 
-- You can :ref:`upgrade your storage <billing>` and use more storage space than the default 10GB.
+- You can :ref:`upgrade your storage <billing-general>` and use more storage space than the default 10GB.
 
 - There are lots and lots of clear and simple guides in our `Lab <https://lab.uberspace.de>`_ that help and inspire you to install apps on your new U7.
 
-- You can now set your custom :ref:`web headers <headers>` for all web connections.
+- You can now set your custom :ref:`web headers <web-headers>` for all web connections.
 
 - Managing your uberspace on the command line is now done via our pretty uberspace commands like ``uberspace web domain add example.com``.
 

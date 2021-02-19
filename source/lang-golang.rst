@@ -1,4 +1,4 @@
-.. _golang:
+.. _lang-golang:
 
 .. sidebar:: Logo
 

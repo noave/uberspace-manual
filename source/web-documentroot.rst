@@ -1,4 +1,4 @@
-.. _docroot:
+.. _web-documentroot:
 
 ############
 DocumentRoot
@@ -16,7 +16,7 @@ Additional DocumentRoots
 
 .. warning:: We strongly suggest to use different accounts for different projects due to security reasons. If one of the DocumentRoots gets compromised (e.g. because of a `CVE <http://www.cvedetails.com/product/4096/Wordpress-Wordpress.html?vendor_id=2337>`_), all other files within all other DocumentRoots can be compromised as well.
 
-You can create folders (and symlinks) in the form of ``/var/www/virtual/<username>/<domain>``. Make sure :ref:`your domain <web-domains>` is setup and configured correctly. To use ``RewriteRules``, you have to create a :ref:`.htaccess file <htaccess>` within the DocumentRoot with the following content:
+You can create folders (and symlinks) in the form of ``/var/www/virtual/<username>/<domain>``. Make sure :ref:`your domain <web-domains>` is setup and configured correctly. To use ``RewriteRules``, you have to create a :ref:`.htaccess file <web-documentroot-htaccess>` within the DocumentRoot with the following content:
 
 .. code-block:: ini
 
@@ -57,6 +57,6 @@ The full configuration ist provided within the file ``/etc/httpd/conf/httpd.conf
 
 Own configuration
 -----------------
-.. _htaccess:
+.. _web-documentroot-htaccess:
 
 You can provide your own configuration with ``.htaccess`` files. Check the `Directive Quick Reference <http://httpd.apache.org/docs/2.4/mod/quickreference.html>`_ for possible configuration directives. Keep in mind that the third column needs to contain ``h`` for ``.htaccess``.

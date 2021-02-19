@@ -1,4 +1,4 @@
-.. _couchdb:
+.. _database-couchdb:
 
 #######
 CouchDB

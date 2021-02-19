@@ -1,4 +1,4 @@
-.. _mongodb:
+.. _database-mongodb:
 
 #######
 MongoDB

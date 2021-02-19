@@ -1,4 +1,4 @@
-.. _clojure:
+.. _lang-clojure:
 
 .. sidebar:: Logo
 

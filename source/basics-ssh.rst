@@ -1,4 +1,4 @@
-.. _ssh:
+.. _basics-ssh:
 
 ###
 SSH
@@ -10,7 +10,7 @@ Introduction
 .. toctree::
    :maxdepth: 2
 
-.. tip:: If you're already used to SSH, you can safely head over to the :ref:`ssh-advanced-topics` section.
+.. tip:: If you're already used to SSH, you can safely head over to the :ref:`basics-ssh-advancedtopics` section.
 
 Here at Uberspace, many administrative tasks are preferably done on the shell, a text-based command line interface.
 At first glance this might seem complex or even confusing for people that are more used to web interfaces,
@@ -25,7 +25,7 @@ As a widely-used protocol it is supported by clients on basically all operating 
 
 .. include:: includes/sftp-warning.rst
 
-.. _ssh-login-data:
+.. _basics-ssh-logindata:
 
 Login data
 ----------
@@ -37,7 +37,7 @@ You'll need three pieces of information to connect with your account by SSH:
    You can find this hostname under the `Datasheet <https://uberspace.de/dashboard/datasheet>`_ section.
    It's always in the form ``<something>.uberspace.de``.
 #. A **password** or **private key** - as a newbie, simply set a password under the `Logins <https://uberspace.de/dashboard/authentication>`_ section.
-   You can always switch to using SSH keys later, see :ref:`ssh-working-with-keys`.
+   You can always switch to using SSH keys later, see :ref:`basics-ssh-workingwithkeys`.
 
 For this introduction we're assuming your username is ``eliza`` and you're on ``dolittle.uberspace.de``.
 
@@ -45,7 +45,7 @@ We're now guiding you through your first successful connection to your account. 
 
 .. tip:: If your client supports ``SHA256`` fingerprints, we strongly recommend to make sure that the fingerprint shown in the `Datasheet <https://uberspace.de/dashboard/datasheet>`_ matches the one shown by your client. If you only see an ``MD5`` fingerprint, your client doesn't support ``SHA256`` and there is no secure way to verify the server's identity.
 
-.. _ssh-using-linux:
+.. _basics-ssh-usinglinux:
 
 Using Linux, macOS, any other Unix, or modern Windows 10
 --------------------------------------------------------
@@ -61,7 +61,7 @@ your local workstation is represented by a ``[localuser@localhost ~]$`` prompt:
   ED25519 key fingerprint is SHA256:DtwUpr0MzHCZBej70iWO9CyzxXRDPK3jr14PJPMQIP4.
   Are you sure you want to continue connecting (yes/no)? yes
   Warning: Permanently added 'dolittle.uberspace.de,ip.ip.ip.ip' (ED25519) to the list of known hosts.
-  eliza@dolittle.uberspace.de's password: 
+  eliza@dolittle.uberspace.de's password:
   [eliza@dolittle ~]$
 
 What you're first seeing is the fingerprint of the host key of the server you're about to connect.
@@ -100,7 +100,7 @@ Other popular choices include `Git BASH <https://git-for-windows.github.io/>`_ w
 the widely-used Git version control system and OpenSSH as an SSH client.
 If you're looking for a large distribution of GNU and Open Source utils that feels more-or-less like a Linux distribution,
 head over to `Cygwin <https://www.cygwin.com/>`_.
-If you opt for one of the last two, you should better follow :ref:`ssh-using-linux` after installation because you will then
+If you opt for one of the last two, you should better follow :ref:`basics-ssh-usinglinux` after installation because you will then
 effectively use the OpenSSH command-line utils.
 
 .. warning:: Some SFTP clients do also offer a way to enter commands to be executed through SSH on the server,
@@ -155,13 +155,13 @@ The ``[eliza@dolittle ~]$`` prompt shows that you're now successfully connected.
 Entering ``exit`` (or pressing Ctrl+D) leaves the shell, closing your connection.
 
 
-.. _ssh-advanced-topics:
+.. _basics-ssh-advancedtopics:
 
 Advanced topics
 ===============
 
 
-.. _ssh-working-with-keys:
+.. _basics-ssh-workingwithkeys:
 
 Working with keys
 -----------------

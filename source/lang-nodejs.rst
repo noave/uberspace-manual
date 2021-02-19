@@ -1,4 +1,4 @@
-.. _nodejs:
+.. _lang-nodejs:
 
 .. sidebar:: Logo
 
@@ -12,7 +12,7 @@ Node.js
 Introduction
 ============
 
-.. warning:: Node.js scripts belong in your :ref:`home`, **not** in your :ref:`docroot`.
+.. warning:: Node.js scripts belong in your :ref:`basics-home`, **not** in your :ref:`web-documentroot`.
 
 `Node.js <https://nodejs.org/en/>`_ is a server-side `JavaScript <https://en.wikipedia.org/wiki/JavaScript>`_ interpreter. Node.js is commonly used to develop server-based applications, i.e. the scripts bind to a network port.
 
@@ -95,7 +95,7 @@ Connection to webserver
 npm
 ===
 
-``npm``, or the `node package manager`, is used to install and manage additional packages. We have preconfigured ``npm`` to install packages to your :ref:`home` when using the global (``-g``) option.
+``npm``, or the `node package manager`, is used to install and manage additional packages. We have preconfigured ``npm`` to install packages to your :ref:`basics-home` when using the global (``-g``) option.
 
 ----
 

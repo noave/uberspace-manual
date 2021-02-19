@@ -1,4 +1,4 @@
-.. _php:
+.. _lang-php:
 
 .. sidebar:: Logo
 
@@ -40,7 +40,7 @@ Use ``uberspace tools version list php`` to show all selectable versions:
   - 8.0
   [eliza@dolittle ~]$
 
-.. _php-change-version:
+.. _lang-php-changeversion:
 
 Change version
 --------------
@@ -104,19 +104,19 @@ We use the `PHP FastCGI Process Manager (FPM) <http://de2.php.net/manual/en/inst
 How to publish
 --------------
 
-Put your PHP files into your :ref:`DocumentRoot <docroot>`. The file extension should be ``.php``. For security reasons we don't parse PHP code in every file.
+Put your PHP files into your :ref:`DocumentRoot <web-documentroot>`. The file extension should be ``.php``. For security reasons we don't parse PHP code in every file.
 
 ----
 
 Configuration
 =============
 
-.. _php-provided-configuration:
+.. _lang-php-providedconfiguration:
 
 Provided configuration
 ----------------------
 
-We use a standard ``php.ini`` configuration with minimal modifications to fit the needs of :ref:`popular software <php-popular-software>`:
+We use a standard ``php.ini`` configuration with minimal modifications to fit the needs of :ref:`popular software <lang-php-popularsoftware>`:
 
 .. code-block:: ini
 
@@ -155,7 +155,7 @@ Example
 
   This example would work without ``uberspace tools restart php`` because the command line ``php`` reads the configuration at execution time. The webserver runs PHP via a daemon that needs to be restarted to parse the new configuration.
 
-In the :ref:`configuration <php-provided-configuration>` we set ``timezone`` to ``Europe/Berlin``. Let's say you want to set the timezone directive to ``UTC``: Create a file ``~/etc/php.d/timezone.ini`` with your new settings and reload your configuration.
+In the :ref:`configuration <lang-php-providedconfiguration>` we set ``timezone`` to ``Europe/Berlin``. Let's say you want to set the timezone directive to ``UTC``: Create a file ``~/etc/php.d/timezone.ini`` with your new settings and reload your configuration.
 
 When there is an error in your configuration, ``uberspace tools restart php`` tells you what to do. In this case we won't reload your configuration to make sure the invalid configuration does not break your PHP setup.
 
@@ -185,7 +185,7 @@ Provided modules
 
 We provide the following modules: ``bcmath``, ``decimal``, ``gd``, ``gmp``, ``imagick``, ``imap``, ``intl``, ``json``, ``ldap``, ``mbstring``, ``mcrypt``, ``mysqlnd``, ``pear``, ``pecl-apcu``, ``pecl-gnupg``, ``php-mongodb``, ``php-sodium``, ``pecl-redis5``, ``pecl-zip``, ``phalcon3``, ``pgsql``, ``posix``, ``process``, ``shmop``, ``soap``, ``sysvmsg``, ``sysvsem``, ``sysvshm``, ``tidy``, ``xml``, ``xmlrpc``.
 
-.. _php-popular-software:
+.. _lang-php-popularsoftware:
 
 ----
 
@@ -215,4 +215,4 @@ Debugging
 =========
 
 * If you want to debug your PHP application, the :ref:`errorlog <web-logs-error>` is a good place to start.
-* Make sure your application is compatible with the :ref:`selected PHP version <php-change-version>`.
+* Make sure your application is compatible with the :ref:`selected PHP version <lang-php-changeversion>`.

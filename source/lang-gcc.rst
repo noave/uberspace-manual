@@ -1,4 +1,4 @@
-.. _gcc:
+.. _lang-gcc:
 
 .. sidebar:: Logo
 

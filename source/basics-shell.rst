@@ -1,4 +1,4 @@
-.. _shell:
+.. _basics-shell:
 
 #########
 The Shell
@@ -13,7 +13,7 @@ By default, all new Uberspace accounts use the `Bash <https://www.gnu.org/softwa
 
 .. code-block:: bash
 
- [eliza@doolittle ~]$ chsh --shell /bin/zsh 
+ [eliza@doolittle ~]$ chsh --shell /bin/zsh
  Changing shell for eliza.
  Shell changed.
 

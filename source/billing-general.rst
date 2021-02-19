@@ -1,4 +1,4 @@
-.. _billing:
+.. _billing-general:
 
 #######
 Billing

@@ -1,7 +1,7 @@
-.. _python:
+.. _lang-python:
 
 .. sidebar:: Logo
-  
+
   .. image:: _static/images/logo_python.png 
       :align: center
 
@@ -12,7 +12,7 @@ Python
 Introduction
 ============
 
-.. warning:: Python applications belong in your :ref:`home`, **not** in your :ref:`docroot`.
+.. warning:: Python applications belong in your :ref:`basics-home`, **not** in your :ref:`web-documentroot`.
 
 Python is an interpreted programming language, created by Guido van Rossum in
 1991. It is used for a wide range of tasks from basic scripting to full-fledged
@@ -23,7 +23,7 @@ Versions
 
 Release Types 
 -------------
-Each release branch of Python is fully supported for five years beginning with its initial stable release. For Python 2.7, this has been extended to ten years. We provide different point releases and apply security updates on a regular basis. Currently, these Python versions are available: 2.7, 3.4, 3.5, 3.6, 3.7, and 3.8. 
+Each release branch of Python is fully supported for five years beginning with its initial stable release. For Python 2.7, this has been extended to ten years. We provide different point releases and apply security updates on a regular basis. Currently, these Python versions are available: 2.7, 3.4, 3.5, 3.6, 3.7, and 3.8.
 
 Standard version
 ----------------
@@ -68,7 +68,7 @@ Connection to webserver
 pip
 ===
 
-pip is Python's package manager, used to install and manage additional packages. You can only install software to your :ref:`home directory <home>`, so please always use the :code:`--user` option when running pip.
+pip is Python's package manager, used to install and manage additional packages. You can only install software to your :ref:`home directory <basics-home>`, so please always use the :code:`--user` option when running pip.
 
 Versions
 --------
@@ -77,13 +77,13 @@ In order to install the correct package corresponding to the Python version you 
 
 .. code-block:: console
 
-  [eliza@dolitte ~] pip2.7 install package-name --user 
+  [eliza@dolitte ~] pip2.7 install package-name --user
 
 To install for Python 3.6, use :code:`pip3.6`:
 
 .. code-block:: console
 
-  [eliza@dolitte ~] pip3.6 install package-name --user 
+  [eliza@dolitte ~] pip3.6 install package-name --user
 
 ----
 

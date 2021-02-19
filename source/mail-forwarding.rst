@@ -1,4 +1,4 @@
-.. _mailforwarding:
+.. _mail-forwarding:
 
 ################
 forwarding mails

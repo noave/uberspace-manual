@@ -1,4 +1,4 @@
-.. _java:
+.. _lang-java:
 
 .. sidebar:: Logo
 
